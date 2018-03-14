@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logos/dup-release-img-transparente-branca.png">
+    <title>dup</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- This page CSS -->
+    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/index-landingpage/landing-page.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="">
+
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+
+        <!-- ============================================================== -->
+        <!-- Top header  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div id='app' class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- End text  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Header 1  -->
+            <!-- ============================================================== -->
+            <div class="header1 po-relative bg-dark">
+                <div class="container">
+                    <!-- Header 1 code -->
+                    <nav class="navbar navbar-expand-lg h1-nav">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/images/logos/dup-release-img-transparente-branca.png" width='50' alt="wrapkit" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header1" aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="ti-menu"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="header1">
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Inicío</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#aboutUs">O que fazemos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-outline-secondary" href="index.html#contato">Vamos conversar?</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- End Header 1 code -->
+                </div>
+            </div>
+
+            <div class="static-slider3">
+                <div class="container">
+                    <!-- Row  -->
+                    <div class="row justify-content-center ">
+                        <!-- Column -->
+                        <div class="col-md-8 align-self-center text-center" data-aos="fade-right" data-aos-duration="1200">
+                            <img v-bind:src="project.image" class="rounded img-circle" width='300' alt="" />
+                            <div class="card card-shadow">
+                                <div class="card-body">
+                                    <div class="p-20">
+                                        <span class="label label-info label-rounded">{{project.title}}</span>
+                                        <h3 class="title">Depoimento</h3>
+                                        <p>
+                                            {{project.description}}
+                                        </p>
+                                        <a class="btn btn-info-gradiant btn-md btn-arrow m-t-20" href="{{project.url}}">
+                                            <span>Visitar
+                                                <i class="ti-arrow-right"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <!-- Column -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- Feature 2  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Feature 3 -->
+            <!-- ============================================================== -->
+            
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <div class="footer4 b-t spacer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 m-b-30">
+                        <h5 class="m-b-20">Tel</h5>
+                        <p>+55 83 98863 5357
+                            <br/>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 m-b-30">
+                        <h5 class="m-b-20">Email</h5>
+                        <p>
+                            <a href="#" class="link">dup.develop@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="m-b-20">Social</h5>
+                        <div class="round-social light">
+                            <a href="#" class="link">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#" class="link">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" class="link">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                            <a href="#" class="link">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                            <a href="#" class="link">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="f4-bottom-bar">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="d-flex font-14">
+                                <div class="m-t-10 m-b-10 copyright">All Rights Reserved by WrapPixel.</div>
+                                <div class="links ml-auto m-t-10 m-b-10">
+                                    <a href="#" class="p-10 p-l-0">Terms of Use</a>
+                                    <a href="#" class="p-10">Legal Disclaimer</a>
+                                    <a href="#" class="p-10">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End footer -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="assets/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="assets/node_modules/popper/dist/popper.min.js"></script>
+    <script src="assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/vue-app.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <script type="text/javascript">
+        $('a').on('click', function (event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 90
+            }, 1000);
+            event.preventDefault();
+            // code 
+
+        });
+    </script>
+</body>
+
+</html>
