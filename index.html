@@ -518,6 +518,7 @@
     <!-- ============================================================== -->
     <!-- This page plugins -->
     <!-- ============================================================== -->
+    <script type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "68596950-cbc2-4c83-8c2e-f8fb8bd34afc"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
     <script type="text/javascript">
         $('a').on('click', function (event) {
             var $anchor = $(this);
@@ -528,6 +529,19 @@
             // code
 
         });
+
+        // Set user email, async-safe
+        $crisp.push(["set", "user:email", "dup@crisp.chat"]);
+        $crisp.push(["config", "color:theme", 'black']);
+
+        setTimeout(function() {
+            $crisp.push(["do", "message:show", ["text", "Oi, tudo bom."]]);
+            
+        }, 10000);
+        
+        setTimeout(function() {
+            $crisp.push(["do", "message:show", ["text", "Como é que podemos melhorar o seu négocio?"]]);
+        }, 12000);
     </script>
 </body>
 
